@@ -1,7 +1,6 @@
 import React, { useState, useLayoutEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import "./index.css";
-import { toBeEnabled } from "@testing-library/jest-dom/dist/matchers";
 
 function App() {
   mapboxgl.accessToken =
